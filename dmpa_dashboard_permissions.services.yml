@@ -1,0 +1,5 @@
+services:
+    dmpa_dashboard_permissions_event_subscriber:
+        class: Drupal\dmpa_dashboard_permissions\EventSubscriber\DmpaDashboardPermissionsSubscriber
+        tags:
+            - {name: event_subscriber}

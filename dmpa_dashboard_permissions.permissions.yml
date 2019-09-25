@@ -1,0 +1,5 @@
+#permission_callbacks:
+#  - Drupal\dmpa_dashboard_permissions\DashboardEditPermissions::permissions
+dashboard edit:
+  title: 'Edit assigned country pages'
+  description: 'Gives permissions to edit content if the country assigned to the page matches the country/countries assigned in the users profile.'

@@ -1,0 +1,3 @@
+dmpa_dashboard_permissions.render:
+    requirements:
+        _permission: 'access content'
